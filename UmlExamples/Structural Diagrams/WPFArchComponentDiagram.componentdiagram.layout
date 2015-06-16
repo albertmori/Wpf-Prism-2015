@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="WPFArchComponentDiagram">
+  <componentModelMoniker Id="8e01e5e6-a816-4365-a4ee-c63a46157f31" />
+  <nestedChildShapes>
+    <componentShape Id="75359e4d-33ef-44b9-8889-dd3c9841a233" absoluteBounds="1.875, 2.375, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="b03c7725-a3e5-4cca-9207-e858c0436a05" LastKnownName="Registration" />
+      <relativeChildShapes>
+        <requiredInterfaceShape Id="34bee79a-964d-488a-8771-1f1f9ab4770f" absoluteBounds="2.5625, 1.96875, 0.15625, 0.40625" blackBoxLocation="0" whiteBoxLocation="0" whiteBoxEdge="" blackBoxEdge="" whiteBoxIsOnPort="false" blackBoxIsOnPort="false">
+          <requiredInterfaceMoniker Id="983b78bc-ffdd-4929-847f-9911030ee61a" LastKnownName="Port1" />
+          <relativeChildShapes />
+        </requiredInterfaceShape>
+      </relativeChildShapes>
+    </componentShape>
+    <componentShape Id="1eab162d-6d09-4e04-9a2b-86bed8d624d0" absoluteBounds="5.3333334922790527, 2.3645832538604736, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="8f6220fa-5a6f-4905-82b0-3eb431bf38b8" LastKnownName="Open Auth" />
+    </componentShape>
+    <dependencyConnector edgePoints="[(3.375 : 3.16249994039536); (3.75 : 3.16249994039536); (3.75 : 2.52708331346512); (5.33333349227905 : 2.52708331346512)]" manuallyRouted="true" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
+      <dependencyMoniker Id="b58e79b4-2d03-43a8-880c-b8ed51245c86" />
+      <relativeChildShapes />
+      <nodes>
+        <componentShapeMoniker Id="75359e4d-33ef-44b9-8889-dd3c9841a233" />
+        <componentShapeMoniker Id="1eab162d-6d09-4e04-9a2b-86bed8d624d0" />
+      </nodes>
+    </dependencyConnector>
+    <componentShape Id="eeebf7e9-c7da-416d-bb16-b9957e4db045" absoluteBounds="1.875, 0.625, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="bf6b6981-6bc6-4eaf-b077-dfb88e781231" LastKnownName="Captcha Validation" />
+      <relativeChildShapes>
+        <providedInterfaceShape Id="aee834c7-37dd-4be0-9e54-1a4b265f23df" absoluteBounds="2.5625, 1.575, 0.15625, 0.40625" blackBoxLocation="0" whiteBoxLocation="0" whiteBoxEdge="" blackBoxEdge="" whiteBoxIsOnPort="false" blackBoxIsOnPort="false">
+          <providedInterfaceMoniker Id="2a9bcce7-e456-4bf3-8627-f25a77677137" LastKnownName="Port1" />
+          <relativeChildShapes />
+        </providedInterfaceShape>
+      </relativeChildShapes>
+    </componentShape>
+  </nestedChildShapes>
+</componentDiagram>

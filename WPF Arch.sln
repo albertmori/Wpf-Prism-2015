@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF Arch", "WPF Arch\WPF Arch.csproj", "{F3934B28-1F6F-460B-B23B-02F7341B955D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{AE04094C-982E-4A71-B0DD-5B0045477D9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeModule", "HomeModule\HomeModule.csproj", "{0F3052AE-29CD-4243-9E09-2DEF2A0C0FE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RXModule", "RXModule\RXModule.csproj", "{768CD947-E778-4F9E-8F48-A713B3CE258A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{94844D27-29AE-4676-8A53-13C672839584}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TplModule", "TplModule\TplModule.csproj", "{6A99EA04-6378-4FB8-ACA0-AF1B22DCDE5A}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "UmlExamples", "UmlExamples\UmlExamples.modelproj", "{953A7A66-9299-4496-98AF-6668410D3286}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A6F00795-64B5-4A71-8CCB-F86B8A571563}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{F898F8E0-771C-4B05-A782-3A2285BB29A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{251A2470-F182-4055-AF0B-390974BA006E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://oteoteinc:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WPF\u0020Arch\\WPF\u0020Arch.csproj
+		SccProjectName1 = WPF\u0020Arch
+		SccLocalPath1 = WPF\u0020Arch
+		SccProjectUniqueName2 = Infrastructure\\Infrastructure.csproj
+		SccProjectName2 = Infrastructure
+		SccLocalPath2 = Infrastructure
+		SccProjectUniqueName3 = HomeModule\\HomeModule.csproj
+		SccProjectTopLevelParentUniqueName3 = WPF\u0020Arch.sln
+		SccProjectName3 = HomeModule
+		SccLocalPath3 = HomeModule
+		SccProjectUniqueName4 = RXModule\\RXModule.csproj
+		SccProjectTopLevelParentUniqueName4 = WPF\u0020Arch.sln
+		SccProjectName4 = RXModule
+		SccLocalPath4 = RXModule
+		SccProjectUniqueName5 = TplModule\\TplModule.csproj
+		SccProjectTopLevelParentUniqueName5 = WPF\u0020Arch.sln
+		SccProjectName5 = TplModule
+		SccLocalPath5 = TplModule
+		SccProjectUniqueName6 = UmlExamples\\UmlExamples.modelproj
+		SccProjectName6 = UmlExamples
+		SccLocalPath6 = UmlExamples
+		SccProjectUniqueName7 = UnitTestProject\\UnitTestProject.csproj
+		SccProjectTopLevelParentUniqueName7 = WPF\u0020Arch.sln
+		SccProjectName7 = UnitTestProject
+		SccLocalPath7 = UnitTestProject
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3934B28-1F6F-460B-B23B-02F7341B955D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3934B28-1F6F-460B-B23B-02F7341B955D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3934B28-1F6F-460B-B23B-02F7341B955D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3934B28-1F6F-460B-B23B-02F7341B955D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE04094C-982E-4A71-B0DD-5B0045477D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE04094C-982E-4A71-B0DD-5B0045477D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE04094C-982E-4A71-B0DD-5B0045477D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE04094C-982E-4A71-B0DD-5B0045477D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F3052AE-29CD-4243-9E09-2DEF2A0C0FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3052AE-29CD-4243-9E09-2DEF2A0C0FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3052AE-29CD-4243-9E09-2DEF2A0C0FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3052AE-29CD-4243-9E09-2DEF2A0C0FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{768CD947-E778-4F9E-8F48-A713B3CE258A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{768CD947-E778-4F9E-8F48-A713B3CE258A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{768CD947-E778-4F9E-8F48-A713B3CE258A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{768CD947-E778-4F9E-8F48-A713B3CE258A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A99EA04-6378-4FB8-ACA0-AF1B22DCDE5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A99EA04-6378-4FB8-ACA0-AF1B22DCDE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A99EA04-6378-4FB8-ACA0-AF1B22DCDE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A99EA04-6378-4FB8-ACA0-AF1B22DCDE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953A7A66-9299-4496-98AF-6668410D3286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953A7A66-9299-4496-98AF-6668410D3286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953A7A66-9299-4496-98AF-6668410D3286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953A7A66-9299-4496-98AF-6668410D3286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251A2470-F182-4055-AF0B-390974BA006E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251A2470-F182-4055-AF0B-390974BA006E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251A2470-F182-4055-AF0B-390974BA006E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251A2470-F182-4055-AF0B-390974BA006E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{251A2470-F182-4055-AF0B-390974BA006E} = {A6F00795-64B5-4A71-8CCB-F86B8A571563}
+		{0F3052AE-29CD-4243-9E09-2DEF2A0C0FE3} = {F898F8E0-771C-4B05-A782-3A2285BB29A8}
+		{768CD947-E778-4F9E-8F48-A713B3CE258A} = {F898F8E0-771C-4B05-A782-3A2285BB29A8}
+		{6A99EA04-6378-4FB8-ACA0-AF1B22DCDE5A} = {F898F8E0-771C-4B05-A782-3A2285BB29A8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="2dfbe016-02bd-4a81-8498-e032633c3ab1" name="WPFArchActivityDiagram" linkedPackageId="8448d6c4-e5a7-403f-b3bc-850c0c9fe80e" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="05e05c8c-889d-4166-bdea-128acf732632">
+      <elementDefinition Id="ca20f4f0-8346-4a00-8f22-3a8fef4f9abe" />
+      <body>Which activity are we trying to model?
+User Registration</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="3b114eb0-c264-46f2-a45f-583410da81ff">
+      <profileInstance Id="b21a7244-be9e-434a-8ee1-fb000eb4c388" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="2debffc6-c761-4ce8-b68c-7945215b44f1">
+      <profileInstance Id="ff00f1fa-7977-4df5-b3db-d708bfd1000b" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="6eb172b3-8807-450f-8c01-ff0b869651a1" name="WPFArchActivityDiagram" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="cb74fa58-bae0-45d1-a4d6-c9eda94b2632" />
+        <nodes>
+          <initialNode Id="41edbbab-d717-4846-bc88-e1894782cbea" name="Initial1" isLeaf="false">
+            <elementDefinition Id="0f849d54-2764-4824-b43c-7dab5130aee9" />
+          </initialNode>
+          <activityFinalNode Id="c50ef3a0-2049-46fe-b8cf-18b5a852c35e" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="59809c90-5ecc-4185-bc2f-6c977b6b2e2c" />
+          </activityFinalNode>
+          <opaqueAction Id="cf1253ac-975b-44d3-a7de-76f9098488e7" name="Sign Up" isLeaf="false">
+            <elementDefinition Id="957e985e-12eb-4331-9b9a-db9b9fd713f5" />
+            <pins>
+              <opaqueActionHasOutputValues>
+                <outputPin Id="10248bfc-3fe4-4f37-a28e-c18331a577db" name="email, password, confirm password,captcha" isLeaf="false" ordering="Unordered" isControlType="false" isControl="false">
+                  <elementDefinition Id="31c5f69a-99cc-49a0-b415-ccf25b486890" />
+                  <objectFlowTargets>
+                    <objectFlow Id="27bd8d15-6f0f-4288-8c7b-1c44b84ef118" isLeaf="false" isMulticast="false" isMultireceive="false">
+                      <decisionNodeMoniker Id="c83d1d61-d4ec-4d31-9603-e5cc03ca09d1" LastKnownName="Password Confirmed" />
+                      <elementDefinition Id="b32d9a60-58d4-414d-8b8c-c6c745822a3f" />
+                    </objectFlow>
+                  </objectFlowTargets>
+                  <upperBound>
+                    <literalInteger Id="b19288ce-204f-4203-be37-c323c1476a1d" name="2147483647" value="2147483647">
+                      <elementDefinition Id="2318627e-8742-41bf-a17c-70ceeae7839c" />
+                    </literalInteger>
+                  </upperBound>
+                </outputPin>
+              </opaqueActionHasOutputValues>
+            </pins>
+          </opaqueAction>
+          <opaqueAction Id="3b33cde9-d6f4-4d74-8f2c-85ace8a8c306" name="Register the user" isLeaf="false">
+            <elementDefinition Id="70af9241-3d7d-4920-ba01-2f5d5eb36ec6" />
+            <flowNodeTargets>
+              <controlFlow Id="720c1727-ecf6-462d-9e9a-508b1873757b" isLeaf="false">
+                <activityFinalNodeMoniker Id="c50ef3a0-2049-46fe-b8cf-18b5a852c35e" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="d3ec7101-7ee4-47d4-977c-273ae3fec1a5" />
+              </controlFlow>
+            </flowNodeTargets>
+            <pins>
+              <opaqueActionHasInputValues>
+                <inputPin Id="2f1c51a0-4bd4-4d0c-a05f-4d3407dd6aa2" name="email,password" isLeaf="false" ordering="Unordered" isControlType="false" isControl="false">
+                  <elementDefinition Id="d67f2245-421d-4d49-9a54-19dcbbdfd99b" />
+                  <upperBound>
+                    <literalInteger Id="a7a209c9-1e37-4856-a9b7-d8174126a824" name="2147483647" value="2147483647">
+                      <elementDefinition Id="7305464e-abf8-4935-a051-8888b4401158" />
+                    </literalInteger>
+                  </upperBound>
+                </inputPin>
+              </opaqueActionHasInputValues>
+            </pins>
+          </opaqueAction>
+          <objectNode Id="628646bc-b819-49dc-9f60-046bf7a2420c" name="UserRegistrationDto" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="6bb4cea5-387e-4f1c-b372-92c0d7f7b46e" />
+            <objectFlowTargets>
+              <objectFlow Id="7f788465-7593-45a6-b776-2bc1d22e0956" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <inputPinMoniker Id="2f1c51a0-4bd4-4d0c-a05f-4d3407dd6aa2" LastKnownName="email,password" />
+                <elementDefinition Id="4486f410-0dd1-4789-91e1-551bb7905ecc" />
+              </objectFlow>
+            </objectFlowTargets>
+            <upperBound>
+              <literalInteger Id="c8b8f016-a46a-4a81-aa0c-dc7abc556aaa" name="2147483647" value="2147483647">
+                <elementDefinition Id="7cccb689-7a9e-4590-8b3a-94a49a79dc66" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <decisionNode Id="c83d1d61-d4ec-4d31-9603-e5cc03ca09d1" name="Password Confirmed" isLeaf="false">
+            <elementDefinition Id="7762e199-763a-4990-82e4-565de7aee13d" />
+            <flowNodeTargets>
+              <controlFlow Id="13a15219-a5c3-411a-b167-b73777f6e22d" name="ConfirmPassword != Password" isLeaf="false">
+                <decisionNodeMoniker Id="ba7d81eb-c10f-4256-8da3-2f66b13c1324" LastKnownName="Decision11" />
+                <description>ConfirmPassword != Password</description>
+                <elementDefinition Id="111c2fe3-d670-456f-a3cd-950a392e3875" />
+              </controlFlow>
+            </flowNodeTargets>
+            <objectFlowTargets>
+              <objectFlow Id="2840a6a9-fee7-44fb-915b-582d96f13cdc" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <objectNodeMoniker Id="628646bc-b819-49dc-9f60-046bf7a2420c" LastKnownName="UserRegistrationDto" />
+                <elementDefinition Id="fc50447a-6643-480b-bba5-7dc45071e9d5" />
+              </objectFlow>
+            </objectFlowTargets>
+          </decisionNode>
+          <decisionNode Id="ba7d81eb-c10f-4256-8da3-2f66b13c1324" name="Decision11" isLeaf="false">
+            <elementDefinition Id="4f50b4b5-fa46-4df9-b7ab-f4047ae7f6ef" />
+            <flowNodeTargets>
+              <controlFlow Id="bfd906fc-4580-4d7a-9f79-9cb570dabe63" isLeaf="false">
+                <opaqueActionMoniker Id="cf1253ac-975b-44d3-a7de-76f9098488e7" LastKnownName="Sign Up" />
+                <elementDefinition Id="533e9849-24dd-4618-838a-d7e12d426d3f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="8448d6c4-e5a7-403f-b3bc-850c0c9fe80e" name="UmlExamples">
+    <elementDefinition Id="6b17fe3a-0e77-4aa8-a909-3fae2c28a74f" />
+  </package>
+</activityRootModel>

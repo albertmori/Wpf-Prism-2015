@@ -1,0 +1,12 @@
+﻿<Window x:Class="WPF_Arch.Shell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="clr-namespace:Microsoft.Practices.Prism.Regions;assembly=Microsoft.Practices.Prism"
+        Title="Shell" Height="300" Width="300">
+    <DockPanel LastChildFill="True">
+        <ContentControl DockPanel.Dock="Top"
+                        prism:RegionManager.RegionName="ToolBarRegion" />
+        <ContentControl prism:RegionManager.RegionName="ContentRegion"
+                        Margin="0,54,0,0" />
+    </DockPanel>
+</Window>

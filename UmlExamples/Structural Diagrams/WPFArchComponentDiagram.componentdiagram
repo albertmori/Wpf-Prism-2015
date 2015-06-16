@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="8e01e5e6-a816-4365-a4ee-c63a46157f31" name="WPFArchComponentDiagram" linkedPackageId="3165106c-dae4-4a3c-a7f7-ada252262aab" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="49aca0d4-01e2-45c0-84ac-0436323d2ba3">
+      <profileInstance Id="afc6937f-ce55-4347-a202-ec57be5c0ae8" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="55bb442b-9575-4da9-bcaf-791a2fc65eb4">
+      <profileInstance Id="3366be19-e44b-4369-867b-ed72c7253ded" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="b03c7725-a3e5-4cca-9207-e858c0436a05" name="Registration" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0e0ef93c-f36e-4d80-8db1-7ed98fd59016" />
+        <suppliersInternal>
+          <dependency Id="b58e79b4-2d03-43a8-880c-b8ed51245c86">
+            <componentMoniker Id="8f6220fa-5a6f-4905-82b0-3eb431bf38b8" LastKnownName="Open Auth" />
+            <elementDefinition Id="4b60af9f-7f89-4f52-85e8-3de25ce2610f" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <requiredInterface Id="983b78bc-ffdd-4929-847f-9911030ee61a" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="78b8f2fc-cb20-4f87-9b53-16fd824c2339" />
+            <type_NamedElement>
+              <interfaceMoniker Id="2b64e2be-b8f6-4fd9-840a-fb19af3bf7f0" LastKnownName="Interface2" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="8f6220fa-5a6f-4905-82b0-3eb431bf38b8" name="Open Auth" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7e41268b-657c-46fe-a567-2f239d7832bc" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="bf6b6981-6bc6-4eaf-b077-dfb88e781231" name="Captcha Validation" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0d819e98-0bf2-4263-aec6-34babc4f2a2c" />
+        <ownedAttributesInternal>
+          <providedInterface Id="2a9bcce7-e456-4bf3-8627-f25a77677137" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="2dd348b3-a52f-4272-a9b4-b52bc0afe7a0" />
+            <type_NamedElement>
+              <interfaceMoniker Id="6f1170dd-d031-44dd-a26b-4fca5b465ea8" LastKnownName="Interface1" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <modelContainsNamedElements>
+      <Interface Id="6f1170dd-d031-44dd-a26b-4fca5b465ea8" name="Interface1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="aaebc84f-1c45-4d16-ab26-c84daad11ce3" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="2b64e2be-b8f6-4fd9-840a-fb19af3bf7f0" name="Interface2" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="626e7374-c588-4ce3-aec3-06e57bdc87f2" />
+      </Interface>
+    </modelContainsNamedElements>
+  </packagedElements>
+  <package Id="3165106c-dae4-4a3c-a7f7-ada252262aab" name="UmlExamples">
+    <elementDefinition Id="6b17fe3a-0e77-4aa8-a909-3fae2c28a74f" />
+  </package>
+</componentModel>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm13="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" dslVersion="1.0.0.0" Id="1f3b3b0f-a90c-45fb-9585-223a37a4fcdb" name="WPFArchClassDiagram" linkedPackageId="8b298ef9-423e-4d87-bad8-28f7a383d906" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="080d314e-62b8-41c7-ae8c-84bd27db2056">
+      <profileInstance Id="b6cfd559-7d3d-4308-8900-03d31c7bc8c8" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="09e188f7-5ac0-4e0f-8557-83002c1698e0">
+      <profileInstance Id="dbc85771-c5ea-40ad-ac02-d889ffddd23c" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="27c64cca-c41c-4dc7-abf8-d7861ed3dbf9" name="UserRegistrationDto" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e1af2dff-e7db-4afb-9910-d29c421f0b47" />
+        <generalsInternal>
+          <generalization Id="7a499d37-fd30-4cdb-a938-89cd25c8b029" isSubstitutable="false">
+            <classMoniker Id="9b10dc90-9aa8-4304-a6cc-f84a7f93e663" LastKnownName="BaseClass" />
+            <elementDefinition Id="8eff1357-a325-48c5-9866-f368ce5c951d" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="4f3fed8d-b1e3-4284-814e-666fc462dfcc" isDerived="false" sourceEndRoleName="UserRegistrationDto" targetEndRoleName="ServiceReference" isLeaf="false" isAbstract="false">
+            <classMoniker Id="2075d562-41f6-4404-bdb2-64131cd2bba2" LastKnownName="ServiceReference" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="16d6e670-12d4-4915-a0e0-9ab2ead0fe41" name="UserRegistrationDto" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a48bb165-ca20-4db6-8f72-7e6cd2e31124" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1fb8e690-8427-45aa-a49a-5a78278a2352" name="ServiceReference" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="24c77c99-f99b-4fc7-8027-13b318d98683" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="481ef7fb-806b-4cd5-936a-4e96a34ce788" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="674cc131-a7ee-4a6e-8b34-720dc3109cd1" name="Email" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1f2258cb-5297-446f-a5d1-ea179d4c06fd" />
+          </property>
+          <property Id="71f62cf6-4745-4baa-843d-e72eb93cab9e" name="Password" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a9404007-932f-411e-a534-24c0dc7b710f" />
+          </property>
+          <property Id="3a7d5bd7-5f60-4630-8fa2-639535438574" name="ConfirmPassword" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cdbf09ff-9e97-4607-8444-45f08a30a0d6" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="7fc436fd-328d-45d7-a887-b05e0506186f" name="ValidatePassword" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a29014e3-475d-4e2f-bf66-847a53edcac9" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9b10dc90-9aa8-4304-a6cc-f84a7f93e663" name="BaseClass" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="897a149d-d2c1-42b6-8ed8-767195a952c2" />
+        <ownedAttributesInternal>
+          <property Id="3f612354-0558-450c-a62f-20550c8f2e29" name="UserEntityGuid" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7f47a543-915d-40b5-94d9-ba9411fa4d3c" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2075d562-41f6-4404-bdb2-64131cd2bba2" name="ServiceReference" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="35b7382a-1528-485f-8fca-1805f6b74712" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="8b298ef9-423e-4d87-bad8-28f7a383d906" name="UmlExamples">
+    <elementDefinition Id="6b17fe3a-0e77-4aa8-a909-3fae2c28a74f" />
+  </package>
+</logicalClassDesignerModel>

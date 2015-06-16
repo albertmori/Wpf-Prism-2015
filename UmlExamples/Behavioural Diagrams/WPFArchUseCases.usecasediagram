@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="6a70fe70-f221-4960-8f05-f7a4f72d2144" name="WPFArchUseCases" linkedPackageId="7d8ff894-5a0d-483f-a053-950ebcd00fd6" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="aac8ac2e-1cfa-424b-b7c9-ff86e5b8ef90" name="Artist" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="081bd0ce-ccf1-43e3-b204-48ad84691524" />
+        <targetEnds>
+          <association Id="909bd1fe-638e-44c4-86e3-c2968612fb31" isDerived="false" sourceEndRoleName="Artist" targetEndRoleName="Upload Profile" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b4224267-0d41-48b3-a360-1399aa3116bd" LastKnownName="Upload Profile" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="93f8e3c1-56b5-4438-9bb2-18d7b303beae" name="Artist" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="dd458d8c-b699-4523-b2c5-abe8a1755be2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6e804ccf-6463-4ccb-a205-c580315db330" name="Upload Profile" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1b4c851b-b678-4e6b-934b-5faa68853d49" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="25cb85a2-ea58-4bed-98eb-af8c4a6752c6" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="e0d9c34c-e63b-4c66-9ac4-93bf04d6b73d" name="Art Organization" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7a63267c-3001-4867-910f-0534abf1484b" />
+        <targetEnds>
+          <association Id="19a02aef-3fce-41f5-bcc4-90dc8e66d98e" isDerived="false" sourceEndRoleName="Art Organization" targetEndRoleName="Browse Jobs" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="36e74762-09c0-40d8-bd0f-46cd94addc8b" LastKnownName="Browse Jobs" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bba08e92-8748-43a4-821c-6f3077f333e1" name="Art Organization" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ed79c00c-0e36-4b96-9177-2e9d92ad8728" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b2e15de3-985b-47de-af93-d6f909bf43c6" name="Browse Jobs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="504761b4-cefb-4ddf-9685-40daf59efe2c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e3690088-7594-4e1d-b062-96f50a35211a" />
+          </association>
+          <association Id="fff2f157-400f-4ab4-b7cd-6a9b9806893b" isDerived="false" sourceEndRoleName="Art Organization" targetEndRoleName="Browse Events" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ebfaa802-9b19-4aac-af28-3f26ff52b1af" LastKnownName="Browse Events" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="59bb7625-105a-474e-a75a-cc8fd7e1cf41" name="Art Organization" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d2418ea4-8767-41be-a86c-a63b819a9df5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a52f619c-7333-475b-a9e5-e4b9e74a69fc" name="Browse Events" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5f6d2ef2-ea62-446e-9ed9-8adae7e5a8dc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9b83505b-5c5c-456e-beb1-72fc22ae4021" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="46458298-88a6-4aa0-90a2-1f793a096594" name="Art Lover" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f4bee699-4906-4792-b2de-44fdd4d0f76f" />
+        <targetEnds>
+          <association Id="dfc3f981-0b63-4eb5-a5f1-82551162f553" isDerived="false" sourceEndRoleName="Art Lover" targetEndRoleName="Browse Events" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ebfaa802-9b19-4aac-af28-3f26ff52b1af" LastKnownName="Browse Events" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2a2d0f14-b998-4c96-8edb-9fc8cc2049f1" name="Art Lover" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7e144ed6-4198-405e-a915-5d05645d2655" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f4cabf13-f461-4863-b2e7-e44b9d9c9593" name="Browse Events" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6fde12e8-1938-40b3-bb78-491b1c84f2c7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f6f0e17a-5afe-4048-a763-0ef71760253f" />
+          </association>
+          <association Id="62439238-27af-41f9-9fe8-27437f443fb0" isDerived="false" sourceEndRoleName="Art Lover" targetEndRoleName="Upload Profile" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b4224267-0d41-48b3-a360-1399aa3116bd" LastKnownName="Upload Profile" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c93b5308-2c82-496d-ab0d-3c6aba703a82" name="Art Lover" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b4805c70-eb6f-4cf4-821b-f0c3f32bed47" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="163e5d82-d340-4fd9-b551-6478bd29a0aa" name="Upload Profile" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="54dc9792-7fcd-45e7-95d6-7d9761071fe5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="87f25892-1eda-4ac5-b6f2-f86ef17ef709" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="c1a43956-163f-43f7-bb27-a62ef9bcf6cc" name="IMGMI" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ebacbacd-46ca-4778-b080-82991b1872ad" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="b4224267-0d41-48b3-a360-1399aa3116bd" name="Upload Profile" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="748755cc-3a52-45f4-9976-8d14e27096e8" />
+        <additions>
+          <include Id="650da764-afc8-46c8-a0d1-650ef4fb0b05">
+            <useCaseMoniker Id="9995a304-464d-4d12-89c2-c1ca5b58dc22" LastKnownName="Create Public Page" />
+            <elementDefinition Id="355295c0-2d4b-409b-970e-a342bd4c7052" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="c1a43956-163f-43f7-bb27-a62ef9bcf6cc" LastKnownName="IMGMI" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="ebfaa802-9b19-4aac-af28-3f26ff52b1af" name="Browse Events" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="942fd963-1944-4d2f-a86b-50000958c13e" />
+        <subjects>
+          <subsystemMoniker Id="c1a43956-163f-43f7-bb27-a62ef9bcf6cc" LastKnownName="IMGMI" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="36e74762-09c0-40d8-bd0f-46cd94addc8b" name="Browse Jobs" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cf9c80d7-96e9-43fc-a9ec-a7dfdbfa0006" />
+        <subjects>
+          <subsystemMoniker Id="c1a43956-163f-43f7-bb27-a62ef9bcf6cc" LastKnownName="IMGMI" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="9995a304-464d-4d12-89c2-c1ca5b58dc22" name="Create Public Page" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7c68f570-fb6d-49c8-80bf-61fdbf70b5c6" />
+        <subjects>
+          <subsystemMoniker Id="c1a43956-163f-43f7-bb27-a62ef9bcf6cc" LastKnownName="IMGMI" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="7d8ff894-5a0d-483f-a053-950ebcd00fd6" name="UmlExamples">
+    <elementDefinition Id="6b17fe3a-0e77-4aa8-a909-3fae2c28a74f" />
+    <profileInstances>
+      <packageHasProfileInstances Id="5b1e8042-c407-44a0-a759-57601b8a73b1">
+        <profileInstance Id="17093e85-5a5a-4b36-a444-e3dab035343f" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="65525244-4769-45f1-bafb-67b83d5b6ba5">
+        <profileInstance Id="39b65ece-ec29-4f3b-a08d-6b3ec348cfe5" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

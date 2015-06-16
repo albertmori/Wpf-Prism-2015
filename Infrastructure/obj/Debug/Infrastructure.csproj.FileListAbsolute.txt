@@ -1,0 +1,10 @@
+W:\Development\WPF Architecture\WPF Arch\Infrastructure\bin\Debug\Infrastructure.dll
+W:\Development\WPF Architecture\WPF Arch\Infrastructure\bin\Debug\Infrastructure.pdb
+W:\Development\WPF Architecture\WPF Arch\Infrastructure\obj\Debug\Infrastructure.dll
+W:\Development\WPF Architecture\WPF Arch\Infrastructure\obj\Debug\Infrastructure.pdb
+W:\Development\WPF Architecture\WPF Arch\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
+Z:\Development\WPF Architecture\WPF Arch\Infrastructure\bin\Debug\Infrastructure.dll
+Z:\Development\WPF Architecture\WPF Arch\Infrastructure\bin\Debug\Infrastructure.pdb
+Z:\Development\WPF Architecture\WPF Arch\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
+Z:\Development\WPF Architecture\WPF Arch\Infrastructure\obj\Debug\Infrastructure.dll
+Z:\Development\WPF Architecture\WPF Arch\Infrastructure\obj\Debug\Infrastructure.pdb

@@ -1,0 +1,92 @@
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\WPF Arch.exe.config
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\WPF Arch.csprojResolveAssemblyReference.cache
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\App.g.cs
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\WPF Arch_MarkupCompile.cache
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\WPF_Arch.Properties.Resources.resources
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\WPF Arch.csproj.GenerateResource.Cache
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\WPF Arch.exe
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\WPF Arch.pdb
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Expression.Interactions.dll
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Prism.dll
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Unity.dll
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Windows.Interactivity.dll
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Prism.xml
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Unity.xml
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\Shell.baml
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\Shell.g.cs
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\WPF Arch.g.resources
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\WPF Arch.exe
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\WPF Arch.pdb
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\HomeModule.dll
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Infrastructure.dll
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\HomeModule.pdb
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Infrastructure.pdb
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\RXModule.dll
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\RXModule.pdb
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.PlatformServices.dll
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.Linq.dll
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.Interfaces.dll
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.Windows.Threading.dll
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.Core.dll
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.PlatformServices.xml
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.Linq.xml
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.Interfaces.xml
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.Windows.Threading.xml
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.Core.xml
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\TplModule.dll
+W:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\TplModule.pdb
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\WPF Arch.exe.config
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\WPF Arch.exe
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\WPF Arch.pdb
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\WPF Arch.exe
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\WPF Arch.pdb
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\HomeModule.dll
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Expression.Interactions.dll
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Prism.dll
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Unity.dll
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\RXModule.dll
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Windows.Interactivity.dll
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\TplModule.dll
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Infrastructure.dll
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.Linq.dll
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.PlatformServices.dll
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.Interfaces.dll
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.Windows.Threading.dll
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.Core.dll
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\HomeModule.pdb
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\RXModule.pdb
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\TplModule.pdb
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Prism.xml
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Unity.xml
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\Infrastructure.pdb
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.Linq.xml
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.PlatformServices.xml
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.Interfaces.xml
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.Windows.Threading.xml
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\bin\Debug\System.Reactive.Core.xml
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\WPF Arch.csprojResolveAssemblyReference.cache
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\Shell.baml
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\Shell.g.cs
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\App.g.cs
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\WPF Arch_MarkupCompile.cache
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\WPF Arch.g.resources
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\WPF_Arch.Properties.Resources.resources
+Z:\Development\WPF Architecture\WPF Arch\WPF Arch\obj\Debug\WPF Arch.csproj.GenerateResource.Cache
